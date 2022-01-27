@@ -16,6 +16,5 @@ app.get('/test', (req, res)=>{
     res.json(testdata)
 })
 
-
 //Connect to server
 app.listen(PORT, console.log(`Server is starting at ${PORT}`))
